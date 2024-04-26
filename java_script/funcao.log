@@ -1,0 +1,12 @@
+
+function multiplica(a,b) {
+    return a*b;
+}
+undefined
+
+multiplica(3,5)
+15
+multiplica(1*3)
+NaN
+multiplica(346464646.6464646464,364646464.44646464)
+126337108455327000

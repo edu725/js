@@ -1,0 +1,38 @@
+a=5
+5
+switch(a){
+    case 1: console.log("Bloco 1"); break;
+    case 2: console.log("Bloco 2"); break;
+    case 3: console.log("Bloco 3"); break;
+    case 4: console.log("Bloco 4"); break;
+    case 5: console.log("Bloco 5"); break;
+    default: console.log("Bloco Indefinido"); break;
+}
+VM3827:6 Bloco 5
+undefined
+a=5
+5
+a=2
+2
+switch(a){
+    case 1: console.log("Bloco 1"); break;
+    case 2: console.log("Bloco 2"); break;
+    case 3: console.log("Bloco 3"); break;
+    case 4: console.log("Bloco 4"); break;
+    case 5: console.log("Bloco 5"); break;
+    default: console.log("Bloco Indefinido"); break;
+}
+VM3869:3 Bloco 2
+undefined
+a=238402759
+238402759
+switch(a){
+    case 1: console.log("Bloco 1"); break;
+    case 2: console.log("Bloco 2"); break;
+    case 3: console.log("Bloco 3"); break;
+    case 4: console.log("Bloco 4"); break;
+    case 5: console.log("Bloco 5"); break;
+    default: console.log("Bloco Indefinido"); break;
+}
+VM3890:7 Bloco Indefinido
+undefined

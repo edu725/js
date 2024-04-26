@@ -1,0 +1,21 @@
+
+imprimir=(texto,x=1)=>{
+    str = ""
+    
+    for(i=1;i<=x;i++)
+        str = str+texto
+    
+    console.log(str)
+}
+(texto,x=1)=>{
+    str = ""
+    
+    for(i=1;i<=x;i++)
+        str = str+texto
+    
+    console.log(str)
+}
+
+imprimir('teste3-',8)
+VM5153:7 teste3-teste3-teste3-teste3-teste3-teste3-teste3-teste3-
+undefined

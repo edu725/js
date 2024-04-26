@@ -1,0 +1,21 @@
+
+
+function imprimir(texto,x=1) {
+    str = ""
+    
+    for(i=1;i<=x;i++)
+        str = str+texto
+    
+    console.log(str);
+}
+undefined
+im
+VM5043:1 Uncaught ReferenceError: im is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM5043:1
+imprimir('-teste2')
+VM5024:7 -teste2
+undefined
+imprimir('-teste2',4)
+VM5024:7 -teste2-teste2-teste2-teste2
+undefined

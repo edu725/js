@@ -1,0 +1,18 @@
+
+function imprimir(texto,x) {
+    str = ""
+    if(x == undefined)
+        x=1
+    
+    for(i=1;i<=x;i++)
+        str = str+texto
+    
+    console.log(str);
+}
+undefined
+imprimir('-texto1')
+VM4943:9 -texto1
+undefined
+imprimir('-texto1',4)
+VM4943:9 -texto1-texto1-texto1-texto1
+undefined

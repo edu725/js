@@ -1,0 +1,44 @@
+peso = 8
+8
+if(peso <=10){
+    console.log("Pode embarcar")
+} else if(peso <= 23){
+    console.log("Deve despachar")
+} else{
+    console.log("Deve pagar taxa de acrescimo!")
+}
+VM2477:2 Pode embarcar
+undefined
+peso = 10
+10
+if(peso <=10){
+    console.log("Pode embarcar")
+} else if(peso <= 23){
+    console.log("Deve despachar")
+} else{
+    console.log("Deve pagar taxa de acrescimo!")
+}
+VM2494:2 Pode embarcar
+undefined
+peso = 11
+11
+if(peso <=10){
+    console.log("Pode embarcar")
+} else if(peso <= 23){
+    console.log("Deve despachar")
+} else{
+    console.log("Deve pagar taxa de acrescimo!")
+}
+VM2509:4 Deve despachar
+undefined
+peso=25
+25
+if(peso <=10){
+    console.log("Pode embarcar")
+} else if(peso <= 23){
+    console.log("Deve despachar")
+} else{
+    console.log("Deve pagar taxa de acrescimo!")
+}
+VM2532:6 Deve pagar taxa de acrescimo!
+undefined
